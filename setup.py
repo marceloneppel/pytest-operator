@@ -32,7 +32,7 @@ setup(
         "pytest",
         "pytest-asyncio",
         "pyyaml",
-        "juju",
+        "git+https://github.com/cderici/python-libjuju@2.9",
         "jinja2",
     ],
     entry_points={
